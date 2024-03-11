@@ -1,0 +1,138 @@
+.header {
+    display: flex;
+    justify-content: left;
+    padding: 60px;
+    text-align: right;
+    background: #DCF2F1;
+    color: white;
+    font-size: 30px;
+  }
+
+  #photo {
+    background-image: url(yo.JPG);
+    height: 100px;
+    width: 100px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #headerText h1 {
+    text-decoration: none;
+    padding: 0px;
+    margin-top: 16px;
+    
+  }
+  .header {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #hobbies{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #7FC7D9;
+    height: 250px;
+  }
+
+  .card{
+    width: 300px;
+    height: 300px;
+  }
+
+  #videogames{
+    background-image: url(videogames.jpg);
+    max-width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 215px;
+    width: 215px;
+    border: solid;
+  }
+
+  #reading{
+    background-image: url(reading.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 215px;
+    width: 215px;
+    border: solid;
+  } 
+
+  #piano{
+    background-image: url(piano.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 215px;
+    width: 215px;
+    border: solid;
+  }
+
+  #moreHobbies{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #365486;
+    height: 250px;
+    margin-top: 50px;
+  }
+
+  .textbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(153, 152, 152);
+    border-radius: 20px;
+  }
+
+  #characters{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #0F1035;
+    height: auto;
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  .character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    background-color: rgb(72, 1, 131);
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 20px
+  }
+  .character:hover {
+    opacity: 80%;
+    box-shadow: rgb(169, 211, 255) 0px 20px 30px -10px;
+    rotate: 2deg;
+    scale: 105%;
+    /* translate: 20px 20px; */
+    transition: 0.25s;
+  }
+
+  .character img{
+    height: 250px;
+    width: 170px;
+  }
+
+  .character p{
+    font-family: 'Open Sans Condensed'; sans-serif; 
+    font-size: 20px;
+    color: #50b9f7;
+  }
